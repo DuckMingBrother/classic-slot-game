@@ -23,7 +23,7 @@
       true,
       "single"
     ],
-    "semicolon": true,
+    "semicolon": [true],
     "triple-equals": [
       true,
       "allow-null-check"
@@ -49,6 +49,7 @@
       "check-operator",
       "check-separator",
       "check-type"
-    ]
+    ],
+    "prefer-const": true
   }
 }

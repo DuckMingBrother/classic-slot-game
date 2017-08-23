@@ -49,7 +49,7 @@ export default class Title extends Phaser.State {
         this.sfxAudiosprite = this.game.add.audioSprite(Assets.Audiosprites.AudiospritesSfx.getName());
 
         // This is an example of how you can lessen the verbosity
-        let availableSFX = Assets.Audiosprites.AudiospritesSfx.Sprites;
+        const availableSFX = Assets.Audiosprites.AudiospritesSfx.Sprites;
         this.sfxLaserSounds = [
             availableSFX.Laser1,
             availableSFX.Laser2,
